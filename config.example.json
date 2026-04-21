@@ -1,0 +1,37 @@
+{
+  "browser_paths": {
+    "Firefox": [
+      [
+        "firefox",
+        "--private-window"
+      ],
+      [
+        "/usr/bin/firefox",
+        "--private-window"
+      ]
+    ],
+    "Brave": [
+      [
+        "flatpak",
+        "run",
+        "com.brave.Browser"
+      ],
+      [
+        "brave-browser",
+        "--incognito"
+      ],
+      [
+        "brave",
+        "--incognito"
+      ]
+    ],
+    "Tor Browser": [
+      [
+        "/path/to/tor-browser/start-tor-browser.desktop"
+      ]
+    ]
+  },
+  "fallback_open": [
+    "xdg-open"
+  ]
+}
